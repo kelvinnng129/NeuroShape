@@ -168,7 +168,7 @@ export default function NeuroShape() {
       fd.append('threshold', s.threshold.toString());
       if (customApiKey) { fd.append('custom_api_key', customApiKey); fd.append('api_provider', customApiProvider); }
 
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://kelvinnng129-neuroshape-backend.hf.space';
       const res = await fetch(`${apiUrl}/api/process`, { method: 'POST', body: fd });
       if (!res.ok) throw new Error((await res.json()).detail || 'fail');
 
@@ -211,7 +211,7 @@ export default function NeuroShape() {
         fd.append('file', uploadedFile); fd.append('num_layers', '200');
         fd.append('max_nodes', s.maxNodes.toString()); fd.append('threshold', newTh.toString());
         if (customApiKey) { fd.append('custom_api_key', customApiKey); fd.append('api_provider', customApiProvider); }
-        const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://kelvinnng129-neuroshape-backend.hf.space';
         const res = await fetch(`${apiUrl}/api/process`, { method: 'POST', body: fd });
         if (!res.ok) return;
         const data = await res.json();

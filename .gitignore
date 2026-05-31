@@ -1,29 +1,20 @@
-# macOS
-.DS_Store
-
-# Node / Next.js
-node_modules/
-client/node_modules/
-.next/
-client/.next/
-out/
-client/out/
-
-# Python
-__pycache__/
-*.py[cod]
-venv/
-server/venv/
+node_modules
+.next
+.open-next
+.wrangler
+.vercel
 .env
-.env.*
-!.env.example
+.env.local
+.env.*.local
 
-# Upload/cache/generated folders
-server/temp_uploads/*
-!server/temp_uploads/.gitkeep
-server/models_cache/*
-!server/models_cache/.gitkeep
+client/node_modules
+client/.next
+client/.open-next
+client/.wrangler
+client/.vercel
 
-# IDE
-.vscode/
-.idea/
+server/venv
+server/__pycache__
+server/temp_uploads
+*.pyc
+.DS_Store

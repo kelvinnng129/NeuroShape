@@ -2,7 +2,7 @@ fastapi
 uvicorn[standard]
 python-multipart
 pillow
-rembg
+rembg[cpu]
 transformers
 torch
 numpy

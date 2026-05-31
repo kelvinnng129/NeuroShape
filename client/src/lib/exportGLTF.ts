@@ -1,5 +1,6 @@
 'use client';
 
+import * as THREE from "three";
 import type { Pos } from '@/types';
 
 export async function downloadGLTF(

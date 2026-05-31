@@ -18,3 +18,8 @@ server/__pycache__
 server/temp_uploads
 *.pyc
 .DS_Store
+
+# Project generated/cache files
+server/temp_uploads/
+server/models_cache/
+test_circle.png

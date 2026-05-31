@@ -23,3 +23,7 @@ server/temp_uploads
 server/temp_uploads/
 server/models_cache/
 test_circle.png
+
+# Server runtime/generated folders
+server/models_cache/
+server/temp_uploads/

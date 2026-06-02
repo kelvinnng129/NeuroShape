@@ -24,6 +24,10 @@ When I was learning about machine learning, I realized that neural network diagr
 ## Try Here 
 https://github.com/user-attachments/assets/f0182a3c-9a25-4040-900c-e4f3ebd29e17
 
+<img width="2940" height="1846" alt="image" src="https://github.com/user-attachments/assets/83a3b1f0-a4c3-4761-926c-0d4b9cd12e24" />
+
+
+
 > `(https://neuroshape.kelvinnng129.workers.dev/)` 
 
 
